@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SimpleMooTicker</title>
+<link rel="stylesheet" href="SimpleMooTicker.css" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.4/mootools-yui-compressed.js"></script>
+<script type="text/javascript" src="SimpleMooTicker.js"></script>
+<script type="text/javascript">
+window.addEvent("domready", function() {
+	var T = new SimpleMooTicker({
+		container: document.id("wrapper"),
+		step: 5,
+		periodical: 100
+	});
+});
+</script>
+</head>
+<body>
+
+<div id="wrapper">
+	<ul>
+		<li>First ticker message <a href="#">and a link</a></li>
+		<li>Second ticker message <a href="#">and a link</a></li>
+		<li>Third ticker message <a href="#">and a link</a></li>
+		<li>Fourth ticker message <a href="#">and a link</a></li>
+		<li>Fifth ticker message <a href="#">and a link</a></li>
+	</ul>
+</div>
+
+</body>
+</html>

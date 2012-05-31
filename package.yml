@@ -1,0 +1,7 @@
+name: SimpleMooTicker
+author: kunambi
+category: Widget
+tags: [widget, text, scroll]
+current: v1
+copyright: "Thomas Kunambi, 23 Critters"
+description: A simple text ticker written within the MooTools framework

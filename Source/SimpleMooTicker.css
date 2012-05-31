@@ -1,0 +1,35 @@
+DIV#wrapper * {
+	margin: 0px;
+	padding: 0px;
+}
+DIV#wrapper {
+	width: 400px;
+	overflow: hidden;
+	outline: 1px solid red;
+}
+DIV#wrapper > UL {
+	list-style-type: none;
+	overflow: hidden;
+	clear: both;
+	width: 10000cm; 
+}
+DIV#wrapper > UL > LI {
+	display: block;
+	float: left;
+	padding-right: 15px;
+}
+DIV#wrapper.fade > UL {
+	width: 100%;
+}
+DIV#wrapper.fade > UL > LI {
+	opacity: 0;
+	-ms-opacity: 0;
+	-ms-filter: alpha(opacity=0);
+	display: list-item;
+	width: 100%
+}
+DIV#wrapper.fade > UL > LI:first-child {
+	opacity: 1;
+	-ms-opacity: 1;
+	-ms-filter: alpha(opacity=100);
+}
